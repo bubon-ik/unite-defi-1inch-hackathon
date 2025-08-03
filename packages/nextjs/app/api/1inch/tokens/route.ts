@@ -39,3 +39,4 @@ export async function GET() {
     return NextResponse.json({ error: "Внутренняя ошибка сервера." }, { status: 500 });
   }
 }
+
