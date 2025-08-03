@@ -32,3 +32,4 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Внутренняя ошибка сервера при запросе данных для обмена" }, { status: 500 });
   }
 }
+
